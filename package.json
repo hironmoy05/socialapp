@@ -5,8 +5,7 @@
   "main": "index.js",
   "author": "Hironmoy Dhar",
   "scripts": {
-    "start": "node index.js",
-    "watch": "nodemon index.js"
+    "start": "node index.js"
   },
   "keywords": [
     "express",
