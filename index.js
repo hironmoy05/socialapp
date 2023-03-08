@@ -7,6 +7,13 @@ const PORT = process.env.PORT || 4000;
 
 app.get('/', (req, res) => {
     res.status(200).send('Hello world');
+});
+
+app.get('/api/v1/friends', (req, res) => {
+    res.status(200).json({
+        id: 0,
+        name: 'Hironmoy Dhar',
+    })
 })
 
 app.get('/api/v1/instagram', (req, res) => {
